@@ -14,6 +14,6 @@ With the capybara-webkit driver [install QT](https://github.com/thoughtbot/capyb
 
 With selenium:
 
-   WEB_TEST_JS_DRIVER=selenium bundle exec cucumber features/drag_drop_list_items.feature 
+    WEB_TEST_JS_DRIVER=selenium bundle exec cucumber features/drag_drop_list_items.feature 
 
 
