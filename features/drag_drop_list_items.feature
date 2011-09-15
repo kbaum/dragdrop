@@ -10,7 +10,6 @@ Feature: Drag and drop items
       | Test drag and drop | 3          | 
     When I go to the lists page
     And I follow "Show"
-    And show me the page
     And I drag item "Test drag and drop" to the top of the list
     Then the list "to dos" should have the following items:  
       | name               | position   |
