@@ -1,0 +1,16 @@
+<p id="notice"><%= notice %></p>
+
+<%=div_for @list do %>
+
+<p>
+  <b>Name:</b>
+  <%= @list.name %>
+  </p>
+  <div id="list_items" >
+     <%= render @list.list_items %>
+  </div>
+
+<% end %>
+
+
+

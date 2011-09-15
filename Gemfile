@@ -17,6 +17,8 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'acts_as_list'
+gem 'ruby-debug19', :require=>'ruby-debug'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -29,9 +31,12 @@ gem 'jquery-rails'
 
 group :test do
   # Pretty printed test output
+  gem 'rspec-mocks', :git=>'git://github.com/rspec/rspec-mocks.git'
+  gem 'rspec-rails'
   gem 'turn', :require => false
   gem 'capybara'
   gem 'capybara-webkit'
   gem 'cucumber-rails'
   gem 'database_cleaner'
+  gem 'launchy'
 end

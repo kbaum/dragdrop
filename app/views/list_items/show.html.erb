@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @list_item.name %>
+</p>
+
+<p>
+  <b>List:</b>
+  <%= @list_item.list_id %>
+</p>
+
+<p>
+  <b>Position:</b>
+  <%= @list_item.position %>
+</p>
+
+
+<%= link_to 'Edit', edit_list_item_path(@list_item) %> |
+<%= link_to 'Back', list_items_path %>

@@ -5,3 +5,11 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+list = List.create!(:name=>'Todos');
+
+ListItem.create!(:name => 'Buy Milk', :list=>list)
+ListItem.create!(:name => 'Wash the car', :list=>list)
+ListItem.create!(:name => 'Drag and drop test problem', :list=>list)
+
+
