@@ -1,7 +1,7 @@
 Dragdrop 
 =========
 
-This is a simple of example of testing jquery drag and drop sorting of a list with cucumber, capybara, and capybara-webkit or selenium.  Currently I am having problems Getting this to work.
+This is a simple of example of testing jquery drag and drop sorting of a list with cucumber, capybara, and capybara-webkit or selenium.  Because I am having problems getting this to work, this project is serving to reproduce the issue.
 
 To test:
     
